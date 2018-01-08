@@ -1,0 +1,208 @@
+[ 2018-01-02T23:01:13+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2018-01-02T23:01:16+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=011ry0Kc2TuuLC0CrIIc2wU6Kc2ry0KJ&state=a4b511564411f99caec0a7730a1224de
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+
+[ 2018-01-02T23:17:50+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2018-01-02T23:17:52+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=011ry0Kc2TuuLC0CrIIc2wU6Kc2ry0KJ&state=a4b511564411f99caec0a7730a1224de
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+
+[ 2018-01-02T23:17:56+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=001ylgID0i1n2d2Gs7JD0xqfID0ylgIA&state=3654927d3e309c0adae212f2a19c697c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+
+[ 2018-01-02T23:28:54+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2018-01-02T23:28:57+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=021102yt00IK0b1YKbxt0gV6yt0102yP&state=1aecaabc78ab7f1345d08ef837958198
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+
+[ 2018-01-02T23:29:49+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2018-01-02T23:29:52+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=061jWpVo1nEJQp0EKoVo1kuzVo1jWpVz&state=3e30848240bea5ed3b63802f709f1848
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+
+[ 2018-01-02T23:30:48+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2018-01-02T23:30:51+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=001sXZDl0t49il1zqnFl034jEl0sXZDC&state=b6ebb9c7dd63eacac0c075a0bcc13c16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+
+[ 2018-01-02T23:31:14+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2018-01-02T23:31:17+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=061O7b1a1yLiQQ1ZhkY91NGc1a1O7b1U&state=85dde3b84b449c6c6dda1a08bf342381
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+
+[ 2018-01-02T23:38:15+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-01-02T23:38:18+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=0816sC221p5UsN1QIH321lAJ2216sC2f&state=0bcebe3dc1a8ec8a461088a9368a0dca
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+
+[ 2018-01-02T23:43:56+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2018-01-02T23:43:58+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=081dQdcF0l9F4j2nJW9F0ZwxcF0dQdcW&state=d66112acab20ff108265c96d6f2ccc47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+
+[ 2018-01-02T23:44:21+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2018-01-02T23:44:24+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=021tUx3v0M5CSb1X8P2v05hY3v0tUx3E&state=fc10f638f5769869b4d159fbca705538
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+
+[ 2018-01-02T23:53:53+08:00 ] 112.10.232.55 /index.php/Home/WeChat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead /var/www/html/zhongyin/Application/Home/Controller/WeChatController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2018-01-02T23:53:55+08:00 ] 112.10.232.55 /index.php/Home/Index/index?code=061VxNfg1QAXNy0g1ueg14a7gg1VxNf0&state=188ac183065c0e786f6ca321ed107482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+

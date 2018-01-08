@@ -1,0 +1,52 @@
+@charset "utf-8";
+.manager{
+	margin:50px auto;
+	width:300px;
+}	
+.manager img{
+	margin:0 auto;
+	display:block;
+	width:110px;
+	height:110px;
+	border-radius:55px;
+}
+.manager .name{
+	font-size:24px;
+	text-align:center;
+	line-height:50px;
+}
+.manager .work-id{
+	font-size:20px;
+	text-align:center;
+	line-height:50px;
+	color:#B1B1B1;
+}
+
+.phone{
+	margin:30px auto;
+	width:300px;	
+}
+.phone img{
+	margin:0 auto;
+	display:block;
+	width:82px;
+	height:82px;
+}
+.phone .call{
+	display:block;
+	width:300px;
+	margin-top:20px;
+	background-color:#eee;
+	font-size:24px;
+	text-align:center;
+	line-height:40px;
+}
+
+.tip{
+	margin:30px auto;
+	width:520px;
+	color:#B1B1B1;
+	font-size:16px;
+	text-indent:32px;
+	line-height:30px;
+}

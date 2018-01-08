@@ -1,189 +1,220 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+
 class IndexController extends Controller {
     
-
-    //判断是否登录
-    public function if_login(){
-        $u_id = session("user_id");
-        if(empty($u_id)){
-            $this->error('请先登录',U('Index/login'));
-            $this->redirect('Index/login');
-        }
-    }
-
-    public function top(){
-       $this->if_login();
-       $session_data = array(
-          "user_id" => session("user_id"),
-          "user_type" => session("user_type"),
-          "username" => session("username"),
-       );
-
-       $this->assign("user_data", $session_data);
-       $this->display();
-    }
-
-    public function left(){
-      $this->if_login();
-      $session_data = array(
-          "user_id" => session("user_id"),
-          "user_type" => session("user_type"),
-          "username" => session("username")
-      );
-
-      $this->assign("user_data", $session_data);
+    public function index(){
+//      $code = $_GET['code'];
+//      //获取用户信息
+//      $user_data = R('WeChat/getCode',array('code'=>$code));
+//      //推荐人id
+//      $parent_zero_id = $_GET['parent_zero_id'];
+//      if($parent_zero_id){
+//          //获取推荐人信息
+//          $where_zero = array(
+//              "id" => $parent_zero_id
+//          );
+//          $parent_zero_data = M("WxUser")->where($where_zero)->find();
+//          //判断推荐人等级获取上级信息
+//          $grade = $parent_zero_data['grade'];
+//          if($grade == 1){ //推荐人为专员
+//              $parent_one_id = $parent_zero_data['id'];
+//              $parent_two_id = $parent_zero_data['parent_one_id'];
+//              $parent_three_id = $parent_zero_data['parent_two_id'];
+//          } elseif($grade == 2){ //推荐人为经理
+//              $parent_one_id = "";
+//              $parent_two_id = $parent_zero_id;
+//              $parent_three_id = $parent_zero_data['parent_one_id'];
+//          } elseif($grade == 3){ //推荐人为银行家
+//              $parent_one_id = "";
+//              $parent_two_id = "";
+//              $parent_three_id = $parent_zero_id;
+//          }
+//      } else {
+//          $parent_one_id = "";
+//          $parent_two_id = "";
+//          $parent_three_id = "";
+//      }
+//
+//      //判断是否已添加过该用户信息
+//      $where = array(
+//          "openid" => $user_data['openid']
+//      );
+//      $find_data = M('WxUser')->where($where)->find();
+//      if(!$find_data){
+//          $add_data = array(
+//              "openid" => $user_data["openid"],
+//              "nickname" => $user_data["nickname"],
+//              "sex" => $user_data["sex"],
+//              "language" => $user_data["language"],
+//              "city" => $user_data["city"],
+//              "province" => $user_data["province"],
+//              "country" => $user_data["country"],
+//              "headimgurl" => $user_data["headimgurl"],
+//              "parent_zero_id" => $parent_zero_id,
+//              "parent_one_id" => $parent_one_id,
+//              "parent_two_id" => $parent_two_id,
+//              "parent_three_id" => $parent_three_id
+//          );
+//
+//          $add_status = M('WxUser')->add($add_data);
+//          if(!$add_status){
+//              $this->error("获取用户信息失败，请重新进入。");
+//          }
+//      }
       $this->display();
     }
 
-    //登录页面
-    public function login(){
+    //申请代理页面
+    public function applyAgent(){
 
-      $this->display();
-    }
-
-    //执行登录
-    public function do_login(){
-        session_unset();
-        $m_user = D('user');
-        $user_data = $_POST;
-
-        if($user_data["account"] == '' || $user_data["password"] == ""){
-            $result = array(
-                "status" => false,
-                "message" => "账号和密码不能为空"
-            );
-        } else {
-            $where = array(
-              "account" => $user_data["account"],
-              "password" => md5($user_data["password"]),
-              "is_del" => 0
-            );
-
-            $user_data = $m_user->where($where)->find();
-
-            if($user_data && $user_data['user_type'] == 0 ){
-                $result = array(
-                    "status" => true,
-                );
-                session("user_id", $user_data["id"]);
-                session("username", $user_data["username"]);
-                session("account", $user_data["account"]);
-                session("user_type", 0); //普通用户
-            } elseif($user_data && $user_data['user_type'] == 1) {
-                $result = array(
-                    "status" => true
-                );
-                session("user_id", $user_data["id"]);
-                session("username", $user_data["username"]);
-                session("account", $user_data["account"]);
-                session("user_type", 1); //管理员
-            } elseif($user_data && $user_data['user_type'] == 2){
-                $result = array(
-                    "status" => true
-                );
-                session("user_id", $user_data["id"]);
-                session("username", $user_data["username"]);
-                session("account", $user_data["account"]);
-                session("user_type", 2); //董事长
-            } 
-            else {
-                $result = array(
-                    "status" => false,
-                    "message" => "账号或密码错误"
-                );
-            }
-        }
-
-        $this->ajaxReturn($result);
-    }
-
-    //退出登录
-    public function logout(){
-        session_unset(); //清除session
-        $this->redirect('Index/login');
-    }
-
-    //修改登录密码
-    public function update_password(){
-        $session_data = array(
-            "user_id" => session("user_id"),
-            "user_type" => session("user_type"),
-            "username" => session("username"),
-            "account" =>session("account")
-        ); 
-
-        $this->assign("session_data", $session_data);
         $this->display();
     }
 
-    //执行密码修改
-    public function do_update_password(){
-        $data = $_POST;
-        if(!$data['password'] || !$data['new_password'] || !$data['r_password']){
-            $result = array(
-                "status" => false,
-                "message" => "填写信息不完整"
-            );
-        } elseif($data["new_password"] != $data["r_password"]){
-            $result = array(
-                "status" => false,
-                "message" => "新密码和确认密码不一致"
-            );
-        } else {
-          $where = array(
-              "id" => $data["user_id"],
-              "password" => md5($data["password"])
-          );
+    //填写代理信息
+    public function submitMoney(){
 
-          $m_user = D('user');
-          $user_data = $m_user->where($where)->find();
+        $this->display();
+    }
 
-          if($user_data){
-              $update_data = array(
-                  "password" => md5($data["new_password"]),
-              );
-              
-              $update_password = $m_user->where(array('user_id' => $data["user_id"]))->data($update_data)->save();
-              
-              if($update_password){
-                  $result = array(
-                      "status" => true,
-                  );
+    //套現入口页面
+    public function cashEntry(){
 
-              }
-          } else {
-              $result = array(
-                  "status" => false,
-                  "message" => "原密码错误"
-              );
-          }
-        }
-        
-        $this->ajaxReturn($result);
+        $this->display();
+    }
+
+    //订单记录
+    public function orderRecord(){
+
+        $this->display();
+    }
+    /**
+     * *****************************************用户中心********************************************
+     */
+    //用户中心
+    public function userCenter(){
+
+        $this->display();
+    }
+
+    //用户中心 -- 已结算
+    public function incomeDetails(){
+
+        $this->display();
+    }
+
+    //用户中心 -- 可结算
+    public function income(){
+
+        $this->display();
+    }
+
+    //用户中心 -- 授权审核
+    public function authorizationManagement(){
+
+        $this->display();
+    }
+
+    //客户管理
+    public function customerManagement(){
+
+        $this->display();
+    }
+
+    //所属海报
+    public function exclusivePosters(){
+
+        $this->display();
+    }
+
+    //专属客服
+    public function customerService(){
+
+        $this->display();
+    }
+
+    //应知应汇
+    public function shouldKnowShouldRemit(){
+
+        $this->display();
+    }
+
+    //系统通知
+    public function systemInforms(){
+
+        $this->display();
+    }
+
+    //帮助
+    public function help(){
+
+        $this->display();
+    }
+
+    /**
+     * *****************************************刷卡订单********************************************
+     */
+    //刷卡订单
+    public function addCreditCard(){
+
+        $this->display();
+    }
+
+    //最新活动
+    public function latestActivity(){
+
+        $this->display();
     }
 
 
-    public function index(){
-      $this->if_login();
 
-      $session_data = array(
-          "user_id" => session("user_id"),
-          "user_type" => session("user_type"),
-          "username" => session("username"),
-          "user_account" =>session("user_account")
-      ); 
 
-      $this->assign("session_data", $session_data);
-      $this->display();
-    }
 
-    public function main(){
-       $this->if_login();
-        
-       $this->display();
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

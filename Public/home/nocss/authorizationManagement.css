@@ -1,0 +1,188 @@
+@charset "utf-8";
+.menu{
+	margin:20px auto;
+	width:620px;
+	height:60px;
+	background-color:#eee;
+}
+.menu .tab{
+	width:310px;
+	float:left;
+	line-height:60px;
+	font-size:18px;
+	text-align:center;
+}
+.menu .active{
+	color:#fff;
+	background-color:#ffc200;
+}
+
+
+.infor{
+	margin:0 auto;
+	width:640px;
+}
+.infor table{
+	margin:0 auto;
+	width:620px;
+	background-color:#fff;
+	border:none;
+}
+.infor table tr th{
+	font-size:18px;
+	height:60px;
+	text-align:center;
+	line-height:60px;
+	border:1px solid #eee;
+}
+.infor table tr th.long{
+	width:320px;
+}
+.infor table tr th.long2{
+	width:200px;
+}
+.infor table tr th.long3{
+	width:100px;
+}
+.infor table tr td{
+	font-size:16px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	border:1px solid #eee;
+}
+
+.infor .user-list{
+	margin:0 auto;
+	width:620px;
+}
+.infor .user-list li{
+	height:240px;
+	border-bottom:1px solid #eee;
+}
+.infor .user-list li.li2{
+	height:150px;
+	border-bottom:1px solid #eee;
+}
+.infor .user-list li .num{
+	float:left;
+	width:30px;
+	line-height:150px;
+	font-size:30px;
+	color:#B1B1B1;
+	text-align:center;
+}
+.infor .user-list li .user-img{
+	margin-left:10px;
+	float:left;
+	width:110px;
+	height:150px;
+}
+.infor .user-list li .user-img img{
+	display:block;
+	margin:20px auto;
+	width:110px;
+	height:110px;
+	border-radius:55px;
+}
+.infor .user-list li .txt{
+	margin-left:20px;
+	float:left;
+}
+.infor .user-list li .txt .type{
+	line-height:36px;
+	font-size:20px;
+}	
+
+.infor .user-list li .state{
+	margin:0 auto;
+	width:520px;
+	height:60px;
+}
+.infor .user-list li .state .pass{
+	float:left;
+	width:200px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+	border-radius:10px;
+	background-color:#ffc200;
+	box-shadow: 0 0 6px #ffc200;	
+}
+.infor .user-list li .state .no-pass{
+	float:right;
+	width:200px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	font-size:30px;
+	border-radius:10px;
+	background-color:#eee;
+	box-shadow: 0 0 6px #eee;	
+}
+
+
+.popupPass .mask{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0.65;
+	top:0;
+	left:0;
+	z-index:101;				
+}
+.popupPass .popup{
+	position:fixed;
+	width:8.533333333333333rem;
+	height:6rem;
+	left:50%;
+	top:50%;
+	margin-top:-3rem;
+	margin-left:-4.266666666666667rem;
+	border-radius:0.08rem;
+	background-color:#fff;
+	z-index:102;
+}
+.popupPass .popup .top{
+	margin:50px auto;
+	line-height:60px;
+	font-size:34px;
+	text-align:center;
+}
+.popupPass .popup .tip{
+	margin-bottom:50px;
+	line-height:60px;
+	font-size:26px;
+	text-align:center;
+}
+.popupPass .popup .choose{
+	margin:0 auto;
+	width:400px;
+	height:60px;
+}
+.popupPass .popup .choose .yes{
+	float:left;
+	width:160px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+	border-radius:10px;
+	background-color:#ffc200;
+	box-shadow: 0 0 6px #ffc200;	
+}
+.popupPass .popup .choose .no{
+	float:right;
+	width:160px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	font-size:30px;
+	border-radius:10px;
+	background-color:#eee;
+	box-shadow: 0 0 6px #eee;	
+}

@@ -1,0 +1,126 @@
+@charset "utf-8";
+.head{
+	width:100%;
+}
+.head .user-box{
+	position:relative;
+	margin:0 auto;
+	width:10rem;
+	height:6.5625rem;
+	background-color:#1a1c20;
+}
+.user-box .no-use{
+	height:0.015625rem;
+	width:0.015625rem;
+	background-color:#1a1c20;
+}
+.user-box .user-wechat{
+	margin:0 auto;
+	margin-top:0.46875rem;
+	width:9.375rem;
+	height:2.1875rem;
+	border-bottom:0.015625rem solid #eee;
+}
+.user-box .user-wechat .user-img{
+	float:left;
+	width:1.71875rem;
+	height:1.71875rem;
+	border-radius:0.859375rem;
+	background-color:#fff;
+}
+.user-box .user-wechat .user-img img{
+	display:block;
+	width:1.71875rem;
+	height:1.71875rem;
+	border-radius:0.859375rem;
+}
+.user-box .user-wechat .user-infor{
+	margin-left:0.5625rem;
+	float:left;
+	height:1.71875rem;
+}
+.user-box .user-wechat .user-infor .name{
+	font-size:0.375rem;
+	line-height:0.859375rem;
+	color:#ffc200;
+}
+.user-box .user-wechat .user-infor .work-id{
+	font-size:0.3125rem;
+	line-height:0.859375rem;
+	color:#989897;
+}
+.user-box .money-box{
+	margin:0 auto;
+	margin-top:0.46875rem;
+	width:9.375rem;
+}
+.user-box .money-box .sum{
+	padding-left:0.3125rem;
+	height:1.40625rem;
+}
+.user-box .money-box .sum h4{
+	font-size:0.46875rem;
+	line-height:0.9375rem;
+	color:#ffc200;
+}
+.user-box .money-box .sum h5{
+	font-size:0.3125rem;
+	line-height:0.46875rem;
+	color:#989897;
+}
+.user-box .money-box .part{
+	height:1.25rem;
+}
+.user-box .money-box .yuan{
+	margin-left:0.3125rem;
+	float:left;
+}
+.user-box .money-box .yuan2{
+	margin-left:2.8125rem;
+}
+.user-box .money-box .yuan h4{
+	font-size:0.46875rem;
+	line-height:0.78125rem;
+	color:#ffc200;	
+}
+.user-box .money-box .yuan h5{
+	font-size:0.3125rem;
+	line-height:0.46875rem;
+	color:#989897;
+}
+
+.content{
+	width:100%;
+}
+.nav-box{
+	margin:0.625rem auto;
+	width:10rem;
+	height:6.25rem;
+}
+.nav-box .nav{
+	height:6.25rem;
+}
+.nav-box .nav li{
+	float:left;
+	margin:0 0.609375rem;
+	margin-bottom:0.625rem;
+	width:1.25rem;
+	height:1.5625rem;
+}
+.nav-box .nav li a{
+	display:block;
+	width:1.25rem;
+	height:1.5625rem;
+}
+.nav-box .nav li a img{
+	margin:0 auto;
+	display:block;
+	width:1.25rem;
+	height:0.9375rem;
+}
+.nav-box .nav li a h4{
+	font-size:0.3125rem;
+	text-align:center;
+	line-height:0.625rem;
+	color:#000;
+}

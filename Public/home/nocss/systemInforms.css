@@ -1,0 +1,64 @@
+@charset "utf-8";
+html,body{
+	background-color:#eee;
+}
+.help-box{
+	width:100%;
+}
+.help{
+	margin:10px auto;
+	width:620px;
+}
+.help li{
+	margin-bottom:20px;
+	width:600px;
+	padding:10px;
+	background-color:#fff;
+}
+.help li .problem-name{
+	position:relative;
+	height:90px;
+	border-bottom:1px solid #eee;
+}
+.help li .problem-name .num{
+	float:left;
+	height:60px;
+	width:78px;
+	border-right:1px solid #fdd601;
+	color:#fdd601;
+	font-size:34px;
+	line-height:60px;
+	text-align:center;
+}
+.help li .problem-name .title{
+	margin-left:30px;
+	float:left;
+	font-size:32px;
+	line-height:60px;	
+}
+.help li .problem-name .choose{
+	position:absolute;
+	width:32px;
+	height:32px;
+	right:20px;
+	top:30px;
+}
+
+.help li .problem-txt{
+	width:100%;
+	height:200px;
+}
+.help li .problem-txt h4{
+	font-size:30px;
+	color:#f84600;
+	height:80px;
+	line-height:80px;
+}
+.help li .problem-txt p{
+	font-size:20px;
+	height:34px;
+	line-height:34px;	
+}
+.help li .problem-txt p span{
+	color:#f84600;
+}

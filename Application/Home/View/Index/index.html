@@ -1,38 +1,89 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-<link href="__ROOT__/Public/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="__ROOT__/Public/js/jquery.js"></script>
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+		<meta name="keywords" content="信用卡"/>
+		<meta name="description" content="信用卡"/>		
+		<title></title>
+		<!-- 公告样式 -->
+		<link rel="stylesheet" href="__ROOT__/Public/home/css/common/reset.css">
+		<link rel="stylesheet" href="__ROOT__/Public/home/css/common/common.css">
+		<!-- 公告样式 -->
+		<link rel="stylesheet" href="__ROOT__/Public/home/css/index.css" id="css">
 
-</head>
+		<!-- 公共js -->
+	  <script src="__ROOT__/Public/home/js/common/flexible.js"></script>
+		<script src="__ROOT__/Public/home/js/common/jquery-1.11.1.min.js"></script>
+		<script src="__ROOT__/Public/home/js/common/methods.js"></script>
+		<!-- 公共js -->
+		<script src="__ROOT__/Public/home/js/index.js" id="js"></script>
+	</head>
+	<body>
+	<div class="head">
+		<div class="head-box">
+			<div class="banner">
+				<img src="__ROOT__/Public/home/img/index/c-1.png" />
+			</div>
+			<div class="user">
+				<img src="__ROOT__/Public/home/img/index/c-3.png" />
+			</div>
+			<div class="add-card">
+				<div class="title">智能管家  轻松赚钱</div>
+				<div class="tip">套现完成之后，请提交申请我们给你佣金</div>
+				<a href="{:u('addCreditCard')}" class="to-add-card">刷卡订单</a>
+			</div>			
+		</div>
+	</div>
 
-
-<body>
-
-	<div class="place">
-    <span>位置：</span>
-    <ul class="placeul">
-    <li><a href="#">首页</a></li>
-    </ul>
-    </div>
-    
-    <div class="mainindex">
-    
-    
-    <div class="welinfo">
-    <span><img src="__ROOT__/Public/images/sun.png" alt="天气" /></span>
-    <if condition="$session_data['user_type'] eq 2">
-        <b>董事长：{$session_data['username']} 你好，欢迎使用信息管理系统</b>
-    <elseif condition="$session_data[user_type] eq 1" />
-        <b>管理员：{$session_data['username']} 你好，欢迎使用信息管理系统</b>
-    <else />
-        <b>用户：{$session_data['username']} 你好，欢迎使用信息管理系统</b>
-    </if>
-    <a href="{:u('update_password')}">修改登录密码</a>
-    </div>
-    
-</body>
-
+	<div class="content">
+		<div class="nav-box">
+			<ul class="nav">
+				<li>
+					<a href="{:u('applyAgent')}">
+						<img src="__ROOT__/Public/home/img/index/1.png" />
+						<h4>申请代理</h4>						
+					</a>
+				</li>
+				<li>
+					<a href="{:u('cashEntry')}">
+						<img src="__ROOT__/Public/home/img/index/2.png" />
+						<h4>套现入口</h4>						
+					</a>
+				</li>
+				<li>
+						<a href="{:u('orderRecord')}">
+							<img src="__ROOT__/Public/home/img/index/3.png" />
+							<h4>订单记录</h4>						
+						</a>
+				</li>
+				<li>
+						<a href="{:u('userCenter')}">
+							<img src="__ROOT__/Public/home/img/index/4.png" />
+							<h4>用户中心</h4>						
+						</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="activity">
+			<h3>最新活动</h3>
+			<a class="ad" href="{:u('latestActivity')}">
+				<img src="__ROOT__/Public/home/img/index/c-2.png" />
+			</a>
+		</div>
+	</div>
+	
+	<div class="foot">
+		<div class="foot-box">
+			<div class="logo-box">信用卡管家      微投入  轻创业   </div>
+			<div class="link">客服热线 <a href="tel:15990076560">15990076560</a> 官方微信号</div>
+			<div class="company">Copyright © 2018  蚂蚁金融服务集团</div>			
+		</div>
+	</div>
+	</body>
 </html>

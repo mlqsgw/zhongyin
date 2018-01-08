@@ -1,0 +1,75 @@
+@charset "utf-8";
+.banner{
+  width:100%;
+}
+.banner img{
+  margin:0 auto;
+  display:block;
+  width:10rem;
+  height:11.25rem;
+}
+
+
+.user-box{
+	width:100%;
+}
+.user-box .box{
+	margin:0 auto;
+	width:8.125rem;
+}
+.user-box .box .user{
+	float:left;
+	width:4.6875rem;
+}
+.user-box .box .user{
+	float:left;
+	width:4.6875rem;
+	height:3.5rem;
+}
+.user-box .box .user .head-img{
+	margin-top:0.890625rem;
+	float:left;
+	width:1.71875rem;
+	height:1.71875rem;
+	border-radius:0.859375rem;
+}
+.user-box .box .user .head-img img{
+	display:block;
+	width:1.71875rem;
+	height:1.71875rem;
+	border-radius:0.859375rem;
+}
+.user-box .box .user .infor{
+	margin-top:0.890625rem;
+	float:right;
+	width:2.8125rem;
+	text-align:center;
+}
+.user-box .box .user .infor .name{
+	font-size:0.375rem;
+	line-height:0.5625rem;
+}
+.user-box .box .user .infor .work{
+	font-size:0.3125rem;
+	line-height:0.46875rem;
+}
+.user-box .box .user .infor .work-id{
+	font-size:0.3125rem;
+	line-height:0.46875rem;
+}
+.user-box .box .er-code{
+	float:right;
+	width:3.125rem;
+	height:3.5rem;
+}
+.user-box .box .er-code img{
+	display:block;
+	width:3.125rem;
+	height:3.125rem;
+	margin:0 auto;
+}
+.user-box .box .er-code .tip{
+	text-align:center;
+	font-size:0.3125rem;
+	line-height:0.375rem;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+		<meta name="keywords" content="信用卡"/>
+		<meta name="description" content="信用卡"/>		
+		<title>授权管理</title>
+		<!-- 公告样式 -->
+		<link rel="stylesheet" href="__ROOT__/Public/home/css/common/reset.css">
+		<link rel="stylesheet" href="__ROOT__/Public/home/css/common/common.css">
+		<!-- 公告样式 -->
+		<link rel="stylesheet" href="__ROOT__/Public/home/css/authorizationManagement.css" id="css">
+
+		<!-- 公共js -->
+	  <script src="__ROOT__/Public/home/js/common/flexible.js"></script>
+		<script src="__ROOT__/Public/home/js/common/jquery-1.11.1.min.js"></script>
+		<script src="__ROOT__/Public/home/js/common/methods.js"></script>
+		<!-- 公共js -->
+		<script src="__ROOT__/Public/home/js/authorizationManagement.js" id="js"></script>
+	</head>
+	<body>
+	<div class="menu" id="menu">
+		<div class="tab active">未审核</div>
+		<div class="tab">已审核</div>
+	</div>
+
+	<div class="infor">
+		<ul class="user-list" id="user-list">
+			<li>
+				<div class="clearfloat">
+					<div class="num">1</div>
+					<div class="txt">
+						<div class="type">姓名：<span>张小三张小三</span></div>
+						<div class="type">被审核人：<span>普通用户</span></div>
+						<div class="type">微信订单号：<span>8363626226832638362832632872367948748</span></div>
+					</div>					
+				</div>
+				<div class="state">
+					<a class="pass">
+						通过
+					</a>
+					<a class="no-pass">
+						未通过
+					</a>
+				</div>
+			</li>
+		</ul>		
+		<!--分页-->
+		<ul class="page">
+			<li>
+				<a class="back">上一页</a>
+			</li>
+			<li>
+				<a class="active">1</a>
+			</li>
+			<li>
+				<a>2</a>
+			</li>
+			<li>
+				<a>3</a>
+			</li>		
+			<li>
+				<a>4</a>
+			</li>
+			<li>
+				<a>15</a>
+			</li>				
+			<li>
+				<a class="next">下一页</a>
+			</li>				
+			
+		</ul>
+	</div>		
+
+	<div class="infor dn">
+		<ul class="user-list">
+			<li class="li2">
+				<div class="clearfloat">
+					<div class="num">1</div>
+					<div class="txt">
+						<div class="type">姓名：<span>张小三张小三</span></div>
+						<div class="type">被审核人：<span>普通用户</span></div>
+						<div class="type">微信订单号：<span>8363626226832638362832632872367948748</span></div>
+					</div>					
+				</div>
+			</li>
+		</ul>		
+		<!--分页-->
+		<ul class="page">
+			<li>
+				<a class="back">上一页</a>
+			</li>
+			<li>
+				<a class="active">1</a>
+			</li>
+			<li>
+				<a>2</a>
+			</li>
+			<li>
+				<a>3</a>
+			</li>		
+			<li>
+				<a>4</a>
+			</li>
+			<li>
+				<a>15</a>
+			</li>				
+			<li>
+				<a class="next">下一页</a>
+			</li>				
+			
+		</ul>
+	</div>		
+
+	
+	<!--审核通过是否弹窗-->
+	<div class="popupPass dn" id="popupPass">
+		<div class="mask"></div>
+		<div class="popup">
+			<div class="top">提示</div>
+			<div class="tip">通过当前审核？</div>
+			<div class="choose">
+				<a class="yes" href="{:u('buyAuthorizationCode')}">
+					确定
+				</a>
+				<a class="no">
+					取消
+				</a>
+			</div>			
+		</div>
+	</div>
+	<!--审核是否通过弹窗-->
+	
+	<!--审核通过是否弹窗-->
+	<div class="popupNoPass dn" id="popupNoPass">
+		<div class="mask"></div>
+		<div class="popup">
+			<div class="top">提示</div>
+			<div class="tip">不通过当前审核？</div>
+			<div class="choose">
+				<a class="yes">
+					确定
+				</a>
+				<a class="no">
+					取消
+				</a>
+			</div>			
+		</div>
+	</div>
+	<!--审核是否通过弹窗-->	
+	
+	</body>
+</html>

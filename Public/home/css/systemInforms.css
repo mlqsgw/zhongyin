@@ -1,0 +1,64 @@
+@charset "utf-8";
+html,body{
+	background-color:#eee;
+}
+.help-box{
+	width:100%;
+}
+.help{
+	margin:0.15625rem auto;
+	width:9.6875rem;
+}
+.help li{
+	margin-bottom:0.3125rem;
+	width:9.375rem;
+	padding:0.15625rem;
+	background-color:#fff;
+}
+.help li .problem-name{
+	position:relative;
+	height:1.40625rem;
+	border-bottom:0.015625rem solid #eee;
+}
+.help li .problem-name .num{
+	float:left;
+	height:0.9375rem;
+	width:1.21875rem;
+	border-right:0.015625rem solid #fdd601;
+	color:#fdd601;
+	font-size:0.53125rem;
+	line-height:0.9375rem;
+	text-align:center;
+}
+.help li .problem-name .title{
+	margin-left:0.46875rem;
+	float:left;
+	font-size:0.5rem;
+	line-height:0.9375rem;	
+}
+.help li .problem-name .choose{
+	position:absolute;
+	width:0.5rem;
+	height:0.5rem;
+	right:0.3125rem;
+	top:0.46875rem;
+}
+
+.help li .problem-txt{
+	width:100%;
+	height:3.125rem;
+}
+.help li .problem-txt h4{
+	font-size:0.46875rem;
+	color:#f84600;
+	height:1.25rem;
+	line-height:1.25rem;
+}
+.help li .problem-txt p{
+	font-size:0.3125rem;
+	height:0.53125rem;
+	line-height:0.53125rem;	
+}
+.help li .problem-txt p span{
+	color:#f84600;
+}

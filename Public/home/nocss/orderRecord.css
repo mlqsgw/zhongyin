@@ -1,0 +1,94 @@
+@charset "utf-8";
+html,body{
+	background-color:#eee;
+}
+.order-record{
+	width:100%;
+}
+.title{
+	margin:0 auto;
+	width:640px;
+	text-indent:30px;
+	font-size:24px;
+	line-height:80px;
+	height:80px;
+}
+.infor{
+	margin:0 auto;
+	width:640px;
+}
+.infor table{
+	margin:0 auto;
+	width:620px;
+	background-color:#fff;
+	border:none;
+}
+.infor table tr th{
+	font-size:18px;
+	height:60px;
+	text-align:center;
+	line-height:60px;
+	border:1px solid #eee;
+}
+.infor table tr th.long{
+	width:320px;
+}
+.infor table tr th.long2{
+	width:200px;
+}
+.infor table tr th.long3{
+	width:100px;
+}
+.infor table tr td{
+	font-size:16px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	border:1px solid #eee;
+}
+
+.infor .page{
+	margin:30px auto;
+	width:540px;
+	height:40px;
+}
+.infor .page li{
+	float:left;
+}
+.infor .page li a{
+	margin:0 4px;
+	display:block;
+	width:40px;
+	height:40px;
+	font-size:16px;
+	line-height:40px;
+	text-align:center;
+}
+.infor .page li a.active{
+	background-color:#ffc200;
+	color:#fff;
+}
+.infor .page li a.back{
+	width:60px;
+}
+.infor .page li a.next{
+	width:60px;
+}
+
+.menu{
+	margin:20px auto;
+	width:620px;
+	height:60px;
+	background-color:#fff;
+}
+.menu .tab{
+	width:310px;
+	float:left;
+	line-height:60px;
+	font-size:18px;
+	text-align:center;
+}
+.menu .active{
+	color:#fff;
+	background-color:#ffc200;
+}

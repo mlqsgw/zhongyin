@@ -1,0 +1,132 @@
+@charset "utf-8";
+.head{
+	width:100%;
+}
+.head .head-box{
+	position:relative;
+	margin:0 auto;
+	width:10rem;
+	height:5.9375rem;
+}
+.head .head-box .banner{
+	width:10rem;
+	height:5.9375rem;	
+}
+.head .head-box .banner img{
+	display:block;
+	width:10rem;
+	height:5.9375rem;	
+}
+
+.head .head-box .user{
+	position:absolute;
+	width:1.71875rem;
+	height:1.71875rem;
+	border-radius:0.859375rem;
+	top:1.40625rem;
+	right:0.9375rem;
+	background-color:#fff;
+}
+.head .head-box .user img{
+	display:block;
+	width:1.71875rem;
+	height:1.71875rem;
+	border-radius:0.859375rem;
+}
+
+.head .head-box .add-card{
+	position:absolute;
+	width:8.4375rem;
+	height:4.6875rem;
+	bottom:-2.65625rem;
+	right:0.78125rem;
+	background-color:#fff;
+	border-radius:0.15625rem;
+	box-shadow: 0 0 0.09375rem #eee;
+}
+.head .head-box .add-card .title{
+	margin-top:1.25rem;
+	font-size:0.625rem;
+	text-align:center;
+	color:#ffc200;
+	line-height:0.9375rem;
+}
+.head .head-box .add-card .tip{
+	font-size:0.34375rem;
+	text-align:center;
+	color:#b1b1b1;
+	line-height:0.625rem;
+}
+.head .head-box .add-card .to-add-card{
+	margin:0 auto;
+	margin-top:0.46875rem;
+	display:block;
+	width:6.875rem;
+	height:1.09375rem;
+	line-height:1.09375rem;
+	text-align:center;
+	color:#fff;
+	font-size:0.46875rem;
+	border-radius:0.15625rem;
+	background-color:#ffc200;
+	box-shadow: 0 0 0.09375rem #ffc200;
+}
+
+.content{
+	width:100%;
+}
+.nav-box{
+	margin:0.78125rem auto;
+	margin-top:3.125rem;
+	width:10rem;
+	height:1.5625rem;
+}
+.nav-box .nav{
+	height:1.5625rem;
+}
+.nav-box .nav li{
+	float:left;
+	margin:0 0.609375rem;
+	width:1.25rem;
+	height:1.5625rem;
+}
+.nav-box .nav li a{
+	display:block;
+	width:1.25rem;
+	height:1.5625rem;
+}
+.nav-box .nav li a img{
+	margin:0 auto;
+	display:block;
+	width:1.25rem;
+	height:0.9375rem;
+}
+.nav-box .nav li a h4{
+	font-size:0.3125rem;
+	text-align:center;
+	line-height:0.625rem;
+	color:#000;
+}
+
+
+.activity{
+	margin:0 auto;
+	width:10rem;
+}
+.activity h3{
+	text-indent:0.46875rem;
+	font-size:0.375rem;
+	height:0.625rem;
+	line-height:0.625rem;
+}
+.activity a{
+	margin:0 auto;
+	display:block;
+	width:9.375rem;
+	height:2.65625rem;
+}
+.activity a img{
+	display:block;
+	width:9.375rem;
+	height:2.65625rem;
+}

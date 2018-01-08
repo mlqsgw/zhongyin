@@ -1,0 +1,257 @@
+@charset "utf-8";
+.menu{
+	margin:0.3125rem auto;
+	width:9.6875rem;
+	height:0.9375rem;
+	background-color:#eee;
+}
+.menu .tab{
+	width:4.84375rem;
+	float:left;
+	line-height:0.9375rem;
+	font-size:0.28125rem;
+	text-align:center;
+}
+.menu .active{
+	color:#fff;
+	background-color:#ffc200;
+}
+
+
+.infor{
+	margin:0 auto;
+	width:10rem;
+}
+.infor table{
+	margin:0 auto;
+	width:9.6875rem;
+	background-color:#fff;
+	border:none;
+}
+.infor table tr th{
+	font-size:0.28125rem;
+	height:0.9375rem;
+	text-align:center;
+	line-height:0.9375rem;
+	border:0.015625rem solid #eee;
+}
+.infor table tr th.long{
+	width:5rem;
+}
+.infor table tr th.long2{
+	width:3.125rem;
+}
+.infor table tr th.long3{
+	width:1.5625rem;
+}
+.infor table tr td{
+	font-size:0.25rem;
+	height:0.78125rem;
+	text-align:center;
+	line-height:0.78125rem;
+	border:0.015625rem solid #eee;
+}
+
+.infor .user-list{
+	margin:0 auto;
+	width:9.6875rem;
+}
+.infor .user-list li{
+	height:3.75rem;
+	border-bottom:0.015625rem solid #eee;
+}
+.infor .user-list li.li2{
+	height:2.34375rem;
+	border-bottom:0.015625rem solid #eee;
+}
+.infor .user-list li .num{
+	float:left;
+	width:0.46875rem;
+	line-height:2.34375rem;
+	font-size:0.46875rem;
+	color:#B1B1B1;
+	text-align:center;
+}
+.infor .user-list li .user-img{
+	margin-left:0.15625rem;
+	float:left;
+	width:1.71875rem;
+	height:2.34375rem;
+}
+.infor .user-list li .user-img img{
+	display:block;
+	margin:0.3125rem auto;
+	width:1.71875rem;
+	height:1.71875rem;
+	border-radius:0.859375rem;
+}
+.infor .user-list li .txt{
+	margin-left:0.3125rem;
+	float:left;
+}
+.infor .user-list li .txt .type{
+	line-height:0.5625rem;
+	font-size:0.3125rem;
+}	
+
+.infor .user-list li .state{
+	margin:0 auto;
+	width:8.125rem;
+	height:0.9375rem;
+}
+.infor .user-list li .state .pass{
+	float:left;
+	width:3.125rem;
+	height:1.09375rem;
+	line-height:1.09375rem;
+	text-align:center;
+	color:#fff;
+	font-size:0.46875rem;
+	border-radius:0.15625rem;
+	background-color:#ffc200;
+	box-shadow: 0 0 0.09375rem #ffc200;	
+}
+.infor .user-list li .state .no-pass{
+	float:right;
+	width:3.125rem;
+	height:1.09375rem;
+	line-height:1.09375rem;
+	text-align:center;
+	font-size:0.46875rem;
+	border-radius:0.15625rem;
+	background-color:#eee;
+	box-shadow: 0 0 0.09375rem #eee;	
+}
+
+
+/*通过弹窗*/
+.popupPass .mask{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0.65;
+	top:0;
+	left:0;
+	z-index:101;				
+}
+.popupPass .popup{
+	position:fixed;
+	width:8rem;
+	height:5rem;
+	left:50%;
+	top:50%;
+	margin-top:-2.5rem;
+	margin-left:-4rem;
+	border-radius:0.08rem;
+	background-color:#fff;
+	z-index:102;
+}
+.popupPass .popup .top{
+	margin:0.5rem auto;
+	line-height:0.9375rem;
+	font-size:0.53125rem;
+	text-align:center;
+}
+.popupPass .popup .tip{
+	margin-bottom:0.5rem;
+	line-height:0.9375rem;
+	font-size:0.40625rem;
+	text-align:center;
+}
+.popupPass .popup .choose{
+	margin:0 auto;
+	width:6.25rem;
+	height:0.9375rem;
+}
+.popupPass .popup .choose .yes{
+	float:left;
+	width:2.5rem;
+	height:1.09375rem;
+	line-height:1.09375rem;
+	text-align:center;
+	color:#fff;
+	font-size:0.46875rem;
+	border-radius:0.15625rem;
+	background-color:#ffc200;
+	box-shadow: 0 0 0.09375rem #ffc200;	
+}
+.popupPass .popup .choose .no{
+	float:right;
+	width:2.5rem;
+	height:1.09375rem;
+	line-height:1.09375rem;
+	text-align:center;
+	font-size:0.46875rem;
+	border-radius:0.15625rem;
+	background-color:#eee;
+	box-shadow: 0 0 0.09375rem #eee;	
+}
+/*通过弹窗*/
+
+
+
+/*不通过弹窗*/
+.popupNoPass .mask{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0.65;
+	top:0;
+	left:0;
+	z-index:101;				
+}
+.popupNoPass .popup{
+	position:fixed;
+	width:8rem;
+	height:5rem;
+	left:50%;
+	top:50%;
+	margin-top:-2.5rem;
+	margin-left:-4rem;
+	border-radius:0.08rem;
+	background-color:#fff;
+	z-index:102;
+}
+.popupNoPass .popup .top{
+	margin:0.5rem auto;
+	line-height:0.9375rem;
+	font-size:0.53125rem;
+	text-align:center;
+}
+.popupNoPass .popup .tip{
+	margin-bottom:0.5rem;
+	line-height:0.9375rem;
+	font-size:0.40625rem;
+	text-align:center;
+}
+.popupNoPass .popup .choose{
+	margin:0 auto;
+	width:6.25rem;
+	height:0.9375rem;
+}
+.popupNoPass .popup .choose .yes{
+	float:left;
+	width:2.5rem;
+	height:1.09375rem;
+	line-height:1.09375rem;
+	text-align:center;
+	color:#fff;
+	font-size:0.46875rem;
+	border-radius:0.15625rem;
+	background-color:#ffc200;
+	box-shadow: 0 0 0.09375rem #ffc200;	
+}
+.popupNoPass .popup .choose .no{
+	float:right;
+	width:2.5rem;
+	height:1.09375rem;
+	line-height:1.09375rem;
+	text-align:center;
+	font-size:0.46875rem;
+	border-radius:0.15625rem;
+	background-color:#eee;
+	box-shadow: 0 0 0.09375rem #eee;	
+}
+/*不通过弹窗*/
